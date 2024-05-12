@@ -30,3 +30,9 @@ kernel update
 # Проверил версию ядра после перезагрузки
   uname -r
   6.8.9-1.el8.elrepo.x86_64
+
+# По невясненной причине из под VPN не ставился centos/8s бокс версии 4.3.4 с официального репозитория Vagrant, попробовал опустить версию, взлетело с 4.3.2. Поэтому эту же версию потом стянул локально и поставил. Но причину не нашёл, в списке версия 4.3.4 есть, но не взлетает:
+The box you're attempting to add has no available version that
+matches the constraints you requested. Please double-check your
+settings. Also verify that if you specified version constraints,
+that the provider you wish to use is available for these constraints.
